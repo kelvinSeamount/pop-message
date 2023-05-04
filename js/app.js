@@ -4,9 +4,9 @@ const iconBtn = document.querySelector(".icon");
 
 /*===================Add.Eventlistner======================*/
 document.addEventListener("mouseleave", function () {
-  boxElement.style.display = "block";
+  boxElement.classList.remove("hidden");
 });
 
 iconBtn.addEventListener("click", function () {
-  boxElement.style.display = "none";
+  boxElement.classList.add("hidden");
 });

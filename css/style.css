@@ -40,9 +40,11 @@ img {
   border-radius: 1rem;
   background-color: #fff;
   overflow: hidden;
-  display: none;
 }
 
+.hidden {
+  display: none;
+}
 .text {
   padding: 1.2rem 2.5rem;
   font-size: var(--fs-200);
