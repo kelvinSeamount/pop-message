@@ -1,0 +1,87 @@
+:root {
+  --lg-container-width: 80%;
+  --md-container-width: 90%;
+  --sm-container-width: 94%;
+
+  /*=======Fonts-family======*/
+  --font-family: sans-serif;
+
+  /*=======Fonts-Sizes======*/
+  --fs-200: 0.875rem;
+  --fs-400: 2.3rem;
+}
+
+/*=======General-Reset======*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+/*=======Container-Variables====*/
+.container {
+  width: var(--lg-container-width);
+  margin: 0 auto;
+  height: 100vh;
+  background-image: linear-gradient(45deg, #4f639b, #fff);
+}
+
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.text {
+  padding: 1.2rem 2.5rem;
+  font-size: var(--fs-200);
+  line-height: 20px;
+}
+
+.text h2 {
+  font-size: var(--fs-400);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.text small {
+  color: #ff2b4e;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  background: #efefef;
+  margin-top: 1.8rem;
+  border-radius: 0.7rem;
+}
+
+input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 0.7rem 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  padding: 0 0.8rem;
+  background: #ff2b4e;
+  border-radius: 0.2rem;
+  color: #fff;
+}
