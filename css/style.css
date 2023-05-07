@@ -96,3 +96,17 @@ button {
   width: 2rem;
   cursor: pointer;
 }
+
+/*=======Media Querries====*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--md-container-width);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--sm-container-width);
+  }
+}
