@@ -9,6 +9,7 @@
   /*=======Fonts-Sizes======*/
   --fs-200: 0.875rem;
   --fs-400: 2.3rem;
+  --fs-300: 1.8rem;
 }
 
 /*=======General-Reset======*/
@@ -108,5 +109,19 @@ button {
 @media screen and (max-width: 600px) {
   .container {
     width: var(--sm-container-width);
+  }
+  .box {
+    max-width: 280px;
+  }
+
+  .text h2 {
+    font-size: var(--fs-300);
+  }
+
+  form {
+    flex-direction: column;
+  }
+  button {
+    padding: 0.5rem 0.8rem;
   }
 }
